@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intermediate", "Intermediate", "{D8B24E90-E4C3-40D5-BF7A-12661FF675D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{F69FF602-54D6-4F98-A199-C2F9BD5BABA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildRulesProjects", "BuildRulesProjects", "{FB0CF38C-A03B-4763-A691-8555965DAE5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObstacleAssaultModuleRules", "Intermediate\Build\BuildRulesProjects\ObstacleAssaultModuleRules\ObstacleAssaultModuleRules.csproj", "{CFC6B491-6C80-4D7F-8530-4087F6596B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFC6B491-6C80-4D7F-8530-4087F6596B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC6B491-6C80-4D7F-8530-4087F6596B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC6B491-6C80-4D7F-8530-4087F6596B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC6B491-6C80-4D7F-8530-4087F6596B46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F69FF602-54D6-4F98-A199-C2F9BD5BABA2} = {D8B24E90-E4C3-40D5-BF7A-12661FF675D3}
+		{FB0CF38C-A03B-4763-A691-8555965DAE5E} = {F69FF602-54D6-4F98-A199-C2F9BD5BABA2}
+		{CFC6B491-6C80-4D7F-8530-4087F6596B46} = {FB0CF38C-A03B-4763-A691-8555965DAE5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2DA6B99-A38A-450D-9D39-16439ED34D55}
+	EndGlobalSection
+EndGlobal
